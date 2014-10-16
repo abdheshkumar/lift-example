@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/abdhesh/Documents/projects/lift/lift_param/src/main/resources/logback.xml,/home/abdhesh/Documents/projects/lift/lift_param/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/abdhesh/Documents/projects/lift/lift_param/src/main/resources/props,/home/abdhesh/Documents/projects/lift/lift_param/target/scala-2.11/classes/props)[0m
+[0m[[0mdebug[0m] [0m	(/home/abdhesh/Documents/projects/lift/lift_param/src/main/resources/props/default.props,/home/abdhesh/Documents/projects/lift/lift_param/target/scala-2.11/classes/props/default.props)[0m
