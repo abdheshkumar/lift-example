@@ -1,0 +1,12 @@
+/project/target
+/project/project
+/target
+.classpath
+.project
+.settings/
+.target/
+.idea/
+.idea_modules/
+.cache
+.metadata/*
+tmp/
