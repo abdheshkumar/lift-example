@@ -16,8 +16,8 @@ class HelloWorld extends Loggable {
   // replace the contents of the element with id "time" with the date
   def howdy = {
 
+	logger.info("::::German:::::" + S.?("invalid.email.address", new Locale("de")))
     logger.info("::::English:::::" + S.?("invalid.email.address", new Locale("en")))
-    logger.info("::::German:::::" + S.?("invalid.email.address", new Locale("de")))
     logger.info(":::Default:::::" + S.?("invalid.email.address"))
     "#time *" #> date.map(_.toString)
   }
