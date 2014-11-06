@@ -19,6 +19,27 @@ class HelloWorld extends Loggable {
 	logger.info("::::German:::::" + S.?("invalid.email.address", new Locale("de")))
     logger.info("::::English:::::" + S.?("invalid.email.address", new Locale("en")))
     logger.info(":::Default:::::" + S.?("invalid.email.address"))
+    
+    /**
+       logger.info("::::English:::::" + S.?("invalid.email.address", new Locale("en")))
+       logger.info("::::German:::::" + S.?("invalid.email.address", new Locale("de")))
+       logger.info(":::Default:::::" + S.?("invalid.email.address"))
+
+		it would display 
+       ::::English:::::Invalid email address
+       ::::German:::::Invalid email address
+       :::Default:::::Invalid email address
+
+		when i passed German locale first then it would translate all string into german text. for example
+		logger.info("::::German:::::" + S.?("invalid.email.address", new Locale("de")))
+		logger.info("::::English:::::" + S.?("invalid.email.address", new Locale("en")))
+		logger.info(":::Default:::::" + S.?("invalid.email.address"))
+
+		it would display 
+		::::German:::::Die E-Mail-Adresse ist ungültig
+		::::English:::::Die E-Mail-Adresse ist ungültig
+		:::Default:::::Die E-Mail-Adresse ist ungültig
+     */
     "#time *" #> date.map(_.toString)
   }
 
